@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>VBS Contact</title>
+	<link rel="stylesheet" type="text/css" href="<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+
+</head>
+<body id="bg">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+  
+
+      <img src="logo1.jpg" id="logo1"/>
+      <a class="navbar-brand" href="index.html">Viking Brothers Strength</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li class="active"><a href="Contact.html">Contact</a></li>
+        <li><a href="Social.html">Social Media</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+</nav>
+
+<!-- centre text starts here -->
+<div class="row">
+    <div class="center-block" style="width:65%;background-color:black;margin:0 auto;text-align:center;padding-top: 40px;">
+      <!-- text goes here -->
+      <h2>Reach us online</h2>
+      <p id="aboutpagetext"> Viking Brothers Strength and Conditioning is on Facebook, you can find us <a href="https://www.facebook.com/VikingBrothersStrength/" target="_.blank">here.</a></p>
+      <p id="aboutpagetext">
+      We will also be posting our latest pictures and videos to our Instagram page (coming soon). 
+      </p>
+      <p id="aboutpagetext">
+      <h2>Contact Details</h2>
+      <ul id="list">
+        <li>Messenger - @VikingBrothersStrength</li>
+        <li>Email - VBS@gmail.com</li>
+        <li>Phone - 021-999-9999</li>
+      </ul>
+      </p> 
+      <h2>See us in person</h2>
+      <p id="aboutpagetext">We are open 7 days a week, 9am - 10pm at 51 Sydney Street, Petone.
+        </p>
+        <p>
+        <div id="map"></div>
+<script>
+      function initMap() {
+        var uluru = {lat: -41.2231861, lng: 174.8763765};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+</p>
+</div>
+</div>
+
+
+<script type="text/javascript"
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+ </script>
+ 
+ <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkvbDMJhqRXt9EIZ4qz02lt7w-hu8RlaA&callback=initMap">
+</script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+</body>
+</html>
